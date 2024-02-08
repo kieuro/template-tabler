@@ -6,23 +6,23 @@ settings:
 
 devDependencies:
   '@popperjs/core':
-    specifier: ^2.11.6
-    version: 2.11.6
+    specifier: ^2.11.8
+    version: 2.11.8
   axios:
-    specifier: ^1.6.4
-    version: 1.6.4
+    specifier: ^1.6.7
+    version: 1.6.7
   bootstrap:
-    specifier: ^5.2.3
-    version: 5.2.3(@popperjs/core@2.11.6)
+    specifier: ^5.3.2
+    version: 5.3.2(@popperjs/core@2.11.8)
   laravel-vite-plugin:
-    specifier: ^1.0.0
-    version: 1.0.0(vite@5.0.0)
+    specifier: ^1.0.1
+    version: 1.0.1(vite@5.1.0)
   sass:
-    specifier: ^1.56.1
-    version: 1.56.1
+    specifier: ^1.70.0
+    version: 1.70.0
   vite:
-    specifier: ^5.0.0
-    version: 5.0.0(sass@1.56.1)
+    specifier: ^5.1.0
+    version: 5.1.0(sass@1.70.0)
 
 packages:
 
@@ -233,8 +233,8 @@ packages:
     dev: true
     optional: true
 
-  /@popperjs/core@2.11.6:
-    resolution: {integrity: sha512-50/17A98tWUfQ176raKiOGXuYpLyyVMkxxG6oylzL3BPOlA6ADGdK7EYunSa4I064xerltq9TGXs8HmOk5E+vw==}
+  /@popperjs/core@2.11.8:
+    resolution: {integrity: sha512-P1st0aksCrn9sGZhp8GMYwBnQsbvAWsZAX44oXNNvLHGqAOcoVxmjZiohstwQ7SqKnbR47akdNi+uleWD8+g6A==}
     dev: true
 
   /@rollup/rollup-android-arm-eabi@4.9.6:
@@ -357,8 +357,8 @@ packages:
     resolution: {integrity: sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==}
     dev: true
 
-  /axios@1.6.4:
-    resolution: {integrity: sha512-heJnIs6N4aa1eSthhN9M5ioILu8Wi8vmQW9iHQ9NUvfkJb0lEEDUiIdQNAuBtfUt3FxReaKdpQA5DbmMOqzF/A==}
+  /axios@1.6.7:
+    resolution: {integrity: sha512-/hDJGff6/c7u0hDkvkGxR/oy6CbCs8ziCsC7SqmhjfozqiJGc8Z11wrv9z9lYfY4K8l+H9TpjcMDX0xOZmx+RA==}
     dependencies:
       follow-redirects: 1.15.5
       form-data: 4.0.0
@@ -372,12 +372,12 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /bootstrap@5.2.3(@popperjs/core@2.11.6):
-    resolution: {integrity: sha512-cEKPM+fwb3cT8NzQZYEu4HilJ3anCrWqh3CHAok1p9jXqMPsPTBhU25fBckEJHJ/p+tTxTFTsFQGM+gaHpi3QQ==}
+  /bootstrap@5.3.2(@popperjs/core@2.11.8):
+    resolution: {integrity: sha512-D32nmNWiQHo94BKHLmOrdjlL05q1c8oxbtBphQFb9Z5to6eGRDCm0QgeaZ4zFBHzfg2++rqa2JkqCcxDy0sH0g==}
     peerDependencies:
-      '@popperjs/core': ^2.11.6
+      '@popperjs/core': ^2.11.8
     dependencies:
-      '@popperjs/core': 2.11.6
+      '@popperjs/core': 2.11.8
     dev: true
 
   /braces@3.0.2:
@@ -514,15 +514,15 @@ packages:
     engines: {node: '>=0.12.0'}
     dev: true
 
-  /laravel-vite-plugin@1.0.0(vite@5.0.0):
-    resolution: {integrity: sha512-tuiir0LjqrgpYlOUP8plaEPwXAHcvCmB0HKD+noJrBew2yER1ahSz82u2lQMEWAJzBAFSEB4UytOxX+FQ1dOuA==}
+  /laravel-vite-plugin@1.0.1(vite@5.1.0):
+    resolution: {integrity: sha512-laLEZUnSskIDZtLb2FNRdcjsRUhh1VOVvapbVGVTeaBPJTCF/b6gbPiX2dZdcH1RKoOE0an7L+2gnInk6K33Zw==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
       vite: ^5.0.0
     dependencies:
       picocolors: 1.0.0
-      vite: 5.0.0(sass@1.56.1)
+      vite: 5.1.0(sass@1.70.0)
       vite-plugin-full-reload: 1.1.0
     dev: true
 
@@ -558,8 +558,8 @@ packages:
     engines: {node: '>=8.6'}
     dev: true
 
-  /postcss@8.4.34:
-    resolution: {integrity: sha512-4eLTO36woPSocqZ1zIrFD2K1v6wH7pY1uBh0JIM2KKfrVtGvPFiAku6aNOP0W1Wr9qwnaCsF0Z+CrVnryB2A8Q==}
+  /postcss@8.4.35:
+    resolution: {integrity: sha512-u5U8qYpBCpN13BsiEB0CbR1Hhh4Gc0zLFuedrHJKMctHCHAGrMdG0PRM/KErzAL3CU6/eckEtmHNB3x6e3c0vA==}
     engines: {node: ^10 || ^12 || >=14}
     dependencies:
       nanoid: 3.3.7
@@ -601,9 +601,9 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /sass@1.56.1:
-    resolution: {integrity: sha512-VpEyKpyBPCxE7qGDtOcdJ6fFbcpOM+Emu7uZLxVrkX8KVU/Dp5UF7WLvzqRuUhB6mqqQt1xffLoG+AndxTZrCQ==}
-    engines: {node: '>=12.0.0'}
+  /sass@1.70.0:
+    resolution: {integrity: sha512-uUxNQ3zAHeAx5nRFskBnrWzDUJrrvpCPD5FNAoRvTi0WwremlheES3tg+56PaVtCs5QDRX5CBLxxKMDJMEa1WQ==}
+    engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
       chokidar: 3.6.0
@@ -630,8 +630,8 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /vite@5.0.0(sass@1.56.1):
-    resolution: {integrity: sha512-ESJVM59mdyGpsiNAeHQOR/0fqNoOyWPYesFto8FFZugfmhdHx8Fzd8sF3Q/xkVhZsyOxHfdM7ieiVAorI9RjFw==}
+  /vite@5.1.0(sass@1.70.0):
+    resolution: {integrity: sha512-STmSFzhY4ljuhz14bg9LkMTk3d98IO6DIArnTY6MeBwiD1Za2StcQtz7fzOUnRCqrHSD5+OS2reg4HOz1eoLnw==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -659,9 +659,9 @@ packages:
         optional: true
     dependencies:
       esbuild: 0.19.12
-      postcss: 8.4.34
+      postcss: 8.4.35
       rollup: 4.9.6
-      sass: 1.56.1
+      sass: 1.70.0
     optionalDependencies:
       fsevents: 2.3.3
     dev: true
