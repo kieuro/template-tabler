@@ -21,8 +21,9 @@
                                 @csrf
                                 <div class="mb-3">
                                     <label class="form-label">Email address</label>
-                                    <input type="email" class="form-control" name="email" placeholder="your@email.com"
-                                        autocomplete="off" value="{{ old("email") }}" required>
+                                    <input type="email" class="form-control @error("email") is-invalid @enderror"
+                                        name="email" placeholder="your@email.com" autocomplete="off"
+                                        value="{{ old("email") }}" required>
                                     @if ($errors->has("email"))
                                         <span class="invalid-feedback">
                                             <strong>{{ $errors->first("email") }}</strong>
@@ -58,8 +59,9 @@
                                 </div>
                                 <div class="mb-2">
                                     <label class="form-check">
-                                        <input type="checkbox" class="form-check-input" />
-                                        <span class="form-check-label">Remember me on this device</span>
+                                        <input type="checkbox" name="remember" id="remember" class="form-check-input"
+                                            {{ old("remember") ? "checked" : "" }} />
+                                        <span class="form-check-label">Remember me</span>
                                     </label>
                                 </div>
                                 <div class="form-footer">
